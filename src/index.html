@@ -21,7 +21,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png" media="all" />
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png" media="all" />
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png" media="all" />
-    <link rel="manifest" href="/assets/img/site.webmanifest" />
+    <link rel="manifest" href="./site.webmanifest" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-83730011-3"></script>
     <script async>
@@ -39,7 +39,14 @@
     <section class="container">
       <div class="full-height disappear"></div>
       <div class="color-block top-color">
-        <div id="profile-photo" aria-label="Profile Photo of Andrew Wylde" class="img-circle"></div>
+        <img
+          src="./assets/img/profile_400x400.jpg"
+          srcset="./assets/img/profile_150x150.jpg 480w, ./assets/img/profile_400x400.jpg 1080w"
+          sizes="50vw"
+          id="profile-photo"
+          alt="Profile Photo of Andrew Wylde"
+          class="img-circle"
+        />
       </div>
       <div class="color-block bottom-color">
         <div class="links">
