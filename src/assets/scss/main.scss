@@ -1,3 +1,4 @@
+@use "sass:math";
 @import 'links';
 
 $container-width: 100%;
@@ -98,7 +99,7 @@ body {
 
 .color-block {
   width: $container-width;
-  height: $container-height / 2;
+  height: math.div($container-height, 2);
   display: flex;
   justify-content: center;
 }
@@ -137,7 +138,7 @@ body {
 
 
 $block-width: 70%;
-$half-block: $block-width / 2;
+$half-block: math.div($block-width, 2);
 $height: 100px;
 
 .center-block {

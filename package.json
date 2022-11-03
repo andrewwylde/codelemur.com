@@ -2,7 +2,10 @@
   "name": "codelemur.com",
   "version": "1.1.0",
   "description": "personal site",
-  "scripts": {},
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
   "repository": "git+https://github.com/codelemur/codelemur.com.git",
   "author": "Andrew S.E. Wylde",
   "license": "ISC",
